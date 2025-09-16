@@ -1,0 +1,27 @@
+{
+  "name": "emotional-discord-bot",
+  "version": "1.0.0",
+  "description": "An emotional AI Discord chatbot with helper, supporter, and adviser capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "chatbot",
+    "emotions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.19.0",
+    "axios": "^1.12.2",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "moment-timezone": "^0.6.0",
+    "openai": "^4.104.0"
+  }
+}
